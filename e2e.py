@@ -14,8 +14,10 @@ def test_scroe_service():
 
 def main_fuction():
    if test_scroe_service():
+        print("Test is succesful")
         return 0
    else:
+        print("Test is not succesful")
         return -1
 
 
